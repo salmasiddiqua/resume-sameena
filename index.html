@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Sameena Tabbasum, MD, FACC — Interventional Cardiologist</title>
+  <meta name="description" content="Portfolio of Dr. Sameena Tabbasum, MD, FACC — interventional cardiologist. Achievements, work experience, publications, current research, and patient resources." />
+  <meta name="theme-color" content="#0a1e33" />
+  <meta name="author" content="Dr. Sameena Tabbasum" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Dr. Sameena Tabbasum, MD, FACC — Interventional Cardiologist" />
+  <meta property="og:description" content="Interventional cardiologist — heart care, research, and patient education. Ask a question or book a consultation." />
+  <meta property="og:url" content="https://www.drsameenatabbasum.example/" />
+  <meta property="profile:first_name" content="Sameena" />
+  <meta property="profile:last_name" content="Tabbasum" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Structured data (Google doctor card) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Sameena Tabbasum",
+    "medicalSpecialty": "Cardiovascular",
+    "description": "Interventional cardiologist specializing in complex coronary, valvular, and structural heart disease.",
+    "image": "",
+    "url": "https://www.drsameenatabbasum.example/",
+    "telephone": "+1 (617) 555-0134",
+    "email": "sameena.tabbasum@example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "200 Beacon Street, Suite 400",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02116",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Fr 08:00-17:00",
+    "memberOf": [
+      { "@type": "MedicalOrganization", "name": "American College of Cardiology" },
+      { "@type": "MedicalOrganization", "name": "Society for Cardiovascular Angiography & Interventions" }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================= NAVIGATION ======================= -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav-brand" data-nav-brand>
+        <span class="nav-brand-mark" aria-hidden="true">ST</span>
+        <span class="nav-brand-text">
+          <strong data-brand-name>Dr. Sameena Tabbasum</strong>
+          <small data-brand-title>Interventional Cardiologist</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="btn btn-primary btn-sm nav-cta">Book / Ask</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ======================= HERO ======================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-hero-eyebrow>MD · FACC</p>
+          <h1 class="hero-title" data-hero-name>Dr. Sameena Tabbasum</h1>
+          <p class="hero-subtitle" data-hero-title>Interventional Cardiologist</p>
+          <p class="hero-tagline" data-hero-tagline>Compassionate heart care, driven by research — helping patients live longer, healthier lives.</p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Ask a Question</a>
+            <a href="#publications" class="btn btn-outline">View Publications</a>
+          </div>
+
+          <ul class="hero-quick-contact">
+            <li data-hero-email>✉︎ sameena.tabbasum@example.com</li>
+            <li data-hero-phone>✆ +1 (617) 555-0134</li>
+            <li data-hero-location>◎ Boston, Massachusetts, USA</li>
+          </ul>
+        </div>
+
+        <!-- Photo / monogram card -->
+        <div class="hero-photo">
+          <div class="arch-photo">
+            <!-- To use a real photo: set DOCTOR_DATA.photo in data.js, e.g. "assets/dr-mitchell.jpg" -->
+            <div class="photo-monogram" data-photo-monogram aria-hidden="true">ST</div>
+            <img data-photo-img class="photo-img" alt="Portrait of Dr. Sameena Tabbasum" hidden />
+          </div>
+          <div class="arch-aura" aria-hidden="true"></div>
+
+          <div class="photo-card photo-card-1">
+            <strong data-stat-value-0>18</strong><span data-stat-suffix-0>+</span>
+            <small data-stat-label-0>Years of Practice</small>
+          </div>
+          <div class="photo-card photo-card-2">
+            <strong data-stat-value-1>50</strong><span data-stat-suffix-1>+</span>
+            <small data-stat-label-1>Papers Published</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats strip -->
+      <div class="stats-strip">
+        <div class="container stats-grid" id="statsGrid">
+          <!-- Filled from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ABOUT ======================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">Meet <span data-about-name>Dr. Sameena Tabbasum</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-photo">
+            <div class="arch-photo arch-photo-lg">
+              <div class="photo-monogram photo-monogram-lg" data-photo-monogram-lg aria-hidden="true">ST</div>
+              <img data-photo-img-lg class="photo-img" alt="Portrait of Dr. Sameena Tabbasum" hidden />
+            </div>
+            <ul class="credential-chips" data-credential-chips></ul>
+          </div>
+
+          <div class="about-content">
+            <div data-about-paragraphs></div>
+
+            <div class="about-facts">
+              <div class="fact">
+                <span class="fact-label">Languages</span>
+                <span class="fact-value" data-fact-languages></span>
+              </div>
+              <div class="fact">
+                <span class="fact-label">Memberships</span>
+                <span class="fact-value" data-fact-memberships></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= SERVICES ======================= -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head section-head-row">
+          <div>
+            <p class="eyebrow">Specialties &amp; Procedures</p>
+            <h2 class="section-title">How She Can Help</h2>
+          </div>
+          <a href="#contact" class="btn btn-outline-dark btn-sm">Book a Consultation</a>
+        </div>
+        <div class="card-grid card-grid-2" data-services-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= EDUCATION ======================= -->
+    <section class="section section-dark" id="education">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Studies &amp; Training</p>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <ol class="timeline" data-education-list></ol>
+      </div>
+    </section>
+
+    <!-- ======================= EXPERIENCE ======================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Career</p>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+        <div class="experience-list" data-experience-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= ACHIEVEMENTS ======================= -->
+    <section class="section section-gold" id="achievements">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Recognition</p>
+          <h2 class="section-title">Achievements &amp; Awards</h2>
+        </div>
+        <div class="card-grid" data-achievements-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= PUBLICATIONS ======================= -->
+    <section class="section section-dark" id="publications">
+      <div class="container">
+        <div class="section-head section-head-row">
+          <div>
+            <p class="eyebrow">Research Output</p>
+            <h2 class="section-title">Papers Published</h2>
+          </div>
+          <a href="#contact" class="btn btn-outline btn-sm">Request a Reprint</a>
+        </div>
+        <ol class="pub-list" data-publications-list></ol>
+      </div>
+    </section>
+
+    <!-- ======================= CURRENT RESEARCH ======================= -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">In the Lab</p>
+          <h2 class="section-title">Current Research</h2>
+        </div>
+        <div class="card-grid card-grid-2" data-research-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= GOALS ======================= -->
+    <section class="section section-dark" id="goals">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Looking Ahead</p>
+          <h2 class="section-title">Goals &amp; Vision</h2>
+        </div>
+        <blockquote class="vision-quote" data-vision-quote></blockquote>
+        <div class="card-grid card-grid-3" data-goals-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= TESTIMONIALS ======================= -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Patient Voices</p>
+          <h2 class="section-title">Testimonials</h2>
+        </div>
+        <div class="testimonial-grid" data-testimonials-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= REFERRING PHYSICIANS ======================= -->
+    <section class="section section-referral" id="referrals">
+      <div class="container referral-block">
+        <div class="referral-copy">
+          <p class="eyebrow">Collaboration</p>
+          <h2 class="section-title" data-referral-heading>For Referring Physicians</h2>
+          <p class="referral-text" data-referral-text></p>
+        </div>
+        <a class="btn btn-primary" data-referral-cta href="mailto:">Refer a Patient</a>
+      </div>
+    </section>
+
+    <!-- ======================= FAQ ======================= -->
+    <section class="section section-gold" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Common Questions</p>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list" data-faq-list></div>
+      </div>
+    </section>
+
+    <!-- ======================= ASK A QUESTION ======================= -->
+    <section class="section contact-section section-dark" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Get in Touch</p>
+          <h2 class="section-title">Ask a Question</h2>
+          <p class="section-sub">Have a question about a condition, treatment, or appointment? Send a message below — the clinic team typically responds within 1–2 business days.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Form -->
+          <form class="contact-form" id="questionForm" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-name">Full Name <span class="req">*</span></label>
+                <input type="text" id="f-name" name="name" placeholder="Jane Doe" required autocomplete="name" />
+              </div>
+              <div class="form-field">
+                <label for="f-email">Email <span class="req">*</span></label>
+                <input type="email" id="f-email" name="email" placeholder="jane@example.com" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-phone">Phone <span class="opt">(optional)</span></label>
+                <input type="tel" id="f-phone" name="phone" placeholder="+1 (555) 000-0000" autocomplete="tel" />
+              </div>
+              <div class="form-field">
+                <label for="f-request-type">I want to…</label>
+                <select id="f-request-type" name="requestType" data-request-type>
+                  <option value="Ask a question">Ask a question</option>
+                  <option value="Book a consultation">Book a consultation</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row booking-fields" id="bookingFields" hidden>
+              <div class="form-field">
+                <label for="f-date">Preferred date</label>
+                <input type="date" id="f-date" name="preferredDate" min="" />
+              </div>
+              <div class="form-field">
+                <label for="f-time">Preferred time</label>
+                <select id="f-time" name="preferredTime">
+                  <option value="">Any time</option>
+                  <option>Morning (8–12)</option>
+                  <option>Afternoon (12–4)</option>
+                  <option>Late afternoon (4–6)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="f-message">What issue are you facing? <span class="req">*</span></label>
+              <textarea id="f-message" name="message" rows="5" placeholder="Please describe your question, concern, or the reason for your visit…" required></textarea>
+            </div>
+
+            <div class="form-status" id="formStatus" role="status" aria-live="polite" hidden></div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="formSubmit">Send Question</button>
+            <p class="form-note">Your information is kept confidential and only used to respond to your question. <strong>This form is not for medical emergencies</strong> — if you are experiencing an emergency, call your local emergency number.</p>
+          </form>
+
+          <!-- Contact info -->
+          <aside class="contact-info">
+            <h3>Contact Details</h3>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon" aria-hidden="true">🏥</span>
+                <div>
+                  <strong data-contact-clinic>Tabbasum Heart &amp; Vascular Clinic</strong>
+                  <span data-contact-address>200 Beacon Street, Suite 400, Boston, MA 02116</span>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">✉︎</span>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:sameena.tabbasum@example.com" data-contact-email>sameena.tabbasum@example.com</a>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">✆</span>
+                <div>
+                  <strong>Phone</strong>
+                  <a href="tel:+16175550134" data-contact-phone>+1 (617) 555-0134</a>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">🕐</span>
+                <div>
+                  <strong>Office Hours</strong>
+                  <span data-contact-hours></span>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">✦</span>
+                <div>
+                  <strong>Insurance Accepted</strong>
+                  <span data-insurance-list></span>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">→</span>
+                <div>
+                  <strong>Getting Here</strong>
+                  <span data-directions-note></span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="contact-note" data-response-note></div>
+            <div class="contact-note contact-note-emergency" data-emergency-note></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <p class="footer-brand" data-brand-name>Dr. Sameena Tabbasum</p>
+        <p data-footer-bio></p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#research">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li data-footer-email></li>
+          <li data-footer-phone></li>
+          <li data-footer-address></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul class="footer-social" data-footer-social></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="footer-disclaimer" data-footer-disclaimer></p>
+        <p class="footer-copy">© <span data-footer-year></span> <span data-footer-copy-name></span>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <noscript>
+    <p class="noscript-note">This site uses JavaScript to display its content. Please enable JavaScript to view the full site.</p>
+  </noscript>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
