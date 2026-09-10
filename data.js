@@ -42,13 +42,13 @@ const DOCTOR_DATA = {
     {
       year: "2026",
       title: "Drug Induced Liver Injury with Tuberculosis Treatment",
-      journal: "Liver Fellow Network",
+      journal: "Liver Fellow, Network American Association for the study of Liver diseases",
       link: "https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/drug-induced-liver-injury-tuberculosis-treatment"
     },
     {
       year: "2026",
       title: "Rare, But Not Remote",
-      journal: "American Academy of Pediatrics: Section on Global Health, SOGH 2026, Volume 7, Number 1, Spring 2026",
+      journal: "American Academy of Pediatrics: Section on Global Health, SOGH 2026, Volume 7, Number 1, Page 44, Spring 2026",
       link: "https://images.magnetmail.net/images/clients/AAP_MASTER/attach/SOGH/SOGH_Newsletter_Spring_2026_Vol_7_No_1.pdf"
     },
     {
