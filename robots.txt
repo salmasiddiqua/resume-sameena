@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.drsameenatabbasum.example/sitemap.xml
+Sitemap: https://www.drsameenatabassum.example/sitemap.xml

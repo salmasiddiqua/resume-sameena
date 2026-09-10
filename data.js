@@ -1,5 +1,4 @@
-/* ==========================================================================
-   ✏️  EDIT ME — ALL SITE CONTENT LIVES IN THIS FILE.
+/* ==========================================================================    ✏️  EDIT ME: ALL SITE CONTENT LIVES IN THIS FILE.
    Replace the placeholder text below with the doctor's real information.
    Everything else on the page updates automatically.
    ========================================================================== */
@@ -7,335 +6,107 @@
 const DOCTOR_DATA = {
 
   /* ---------- BASIC INFO ---------- */
-  name: "Dr. Sameena Tabbasum",                // Full display name
+  name: "Dr. Sameena Tabassum",                // Full display name
   firstName: "Sameena",                        // Used for monogram initials
-  credentials: "MD, FACC",                     // Shown as eyebrow text in the hero
-  title: "Interventional Cardiologist",        // Job title / specialty
-  tagline: "Compassionate heart care, driven by research — helping patients live longer, healthier lives.",
+  credentials: "MBBS",                     // Shown as eyebrow text in the hero
+  title: "Doc in Training. A Writer at Heart",        // Job title / specialty
+  tagline: "Caring for children with curiosity, attention and purpose, and learning from every family along the way",
   photo: "",                                   // Set to an image path (e.g. "assets/dr-mitchell.jpg") to show a real photo; leave "" for the initials monogram
-  location: "Boston, Massachusetts, USA",
+  location: "Wisconsin, USA",
 
   /* ---------- HERO STATS (shown in the strip under the hero) ---------- */
   stats: [
-    { value: 18, suffix: "+", label: "Years of Practice" },
-    { value: 12, suffix: "k+", label: "Patients Treated" },
-    { value: 50, suffix: "+", label: "Papers Published" },
-    { value: 15, suffix: "", label: "Awards & Honors" }
+    { value: 5, suffix: "+", label: "Publications & Writings" },
+    { value: 6, suffix: "", label: "Languages Spoken" },
+    { value: 3, suffix: "", label: "Professional Memberships" },
+    { value: 5, suffix: "+", label: "Years of Medical Training" }
   ],
 
   /* ---------- ABOUT ---------- */
   aboutParagraphs: [
-    "Dr. Sameena Tabbasum is an interventional cardiologist with nearly two decades of experience treating complex coronary and valvular heart disease. She is board-certified in cardiovascular disease and interventional cardiology, and serves as Director of the Cardiac Catheterization Laboratory at Tabbasum Heart & Vascular Clinic in Boston.",
-    "Her philosophy is simple: every patient deserves to be treated with the same care and attention she would want for her own family. She believes in combining the latest evidence-based medicine with genuine listening, so that each treatment plan is as personal as the patient behind it.",
-    "Beyond the catheterization lab, Dr. Mitchell is an active clinical researcher investigating novel stent technologies and is a passionate advocate for preventive heart health in underserved communities."
+    "I am a trainee doc, lifelong learner, and storyteller who finds meaning in the spaces where medicine meets humanity.",
+    "My philosophy is simple: every patient deserves to be treated with the same care and attention I would want for my own family. I believe in combining the latest evidence-based medicine with genuine listening, so that each treatment plan is as personal as the patient behind it.",
+    "Medicine has taught me to listen closely, to patients, to families, and to the stories behind a diagnosis. Writing has given me another way to do the same. Over the years, I\u2019ve written about medicine, childhood, healthcare, and the people who make each experience memorable.",
+    "I bring these two worlds together: a collection of my writing, reflections, and ideas from the journey of becoming a physician."
   ],
-  credentialChips: ["MBBS", "MD", "FACC", "FSCAI"],
-  languages: ["English", "Spanish"],
+  credentialChips: ["MBBS"],
+  languages: ["English", "Urdu", "Telugu", "Tamil", "Hindi", "Learning spanish"],
   memberships: [
-    "American College of Cardiology",
-    "Society for Cardiovascular Angiography & Interventions",
-    "American Heart Association"
+    "American Medical Association",
+    "Global Association of Indian Medical Students",
+    "American Academy of Pediatrics"
   ],
 
-  /* ---------- SERVICES / SPECIALTIES ---------- */
-  services: [
-    {
-      title: "Coronary Angioplasty & Stenting",
-      description: "Minimally invasive treatment for blocked arteries using balloon angioplasty and drug-eluting stents.",
-      tag: "Procedure"
-    },
-    {
-      title: "Structural Heart Interventions",
-      description: "TAVR, mitral clip, and other catheter-based repairs for heart valve disease — no open surgery needed.",
-      tag: "Procedure"
-    },
-    {
-      title: "Heart Failure Management",
-      description: "Personalized medication, device, and lifestyle plans to help you live well with a weakened heart.",
-      tag: "Condition"
-    },
-    {
-      title: "Hypertension & Cholesterol Care",
-      description: "Modern prevention strategies to control blood pressure and cholesterol and reduce heart-attack risk.",
-      tag: "Prevention"
-    },
-    {
-      title: "Second Opinions",
-      description: "A thorough review of your diagnosis and treatment plan by an expert — typically within 48 hours.",
-      tag: "Service"
-    },
-    {
-      title: "Preventive Heart Screening",
-      description: "Comprehensive risk assessment with advanced imaging and personalized prevention roadmaps.",
-      tag: "Prevention"
-    }
-  ],
-
-  /* ---------- STUDIES / EDUCATION (most recent first) ---------- */
-  education: [
-    {
-      period: "2004 – 2008",
-      degree: "Fellowship, Interventional Cardiology",
-      institution: "Massachusetts General Hospital, Harvard Medical School",
-      detail: "Advanced training in complex coronary intervention, structural heart disease, and intracoronary imaging."
-    },
-    {
-      period: "2001 – 2004",
-      degree: "Residency, Internal Medicine",
-      institution: "Johns Hopkins Hospital, Baltimore",
-      detail: "Chief resident in the final year; recipient of the Osler Resident Teaching Award."
-    },
-    {
-      period: "1997 – 2001",
-      degree: "Doctor of Medicine (MD)",
-      institution: "Johns Hopkins University School of Medicine",
-      detail: "Graduated with honors (AOA); research thesis on endothelial function in early atherosclerosis."
-    },
-    {
-      period: "1993 – 1997",
-      degree: "Bachelor of Medicine, Bachelor of Surgery (MBBS)",
-      institution: "University of Toronto, Faculty of Medicine",
-      detail: "Graduated with distinction; recipient of the Governor General's Academic Medal."
-    }
-  ],
-
-  /* ---------- WORK EXPERIENCE (most recent first) ---------- */
-  experience: [
-    {
-      period: "2014 – Present",
-      role: "Director, Cardiac Catheterization Laboratory",
-      organization: "Tabbasum Heart & Vascular Clinic",
-      location: "Boston, MA",
-      highlights: [
-        "Lead a 24-person team performing over 1,800 interventional procedures annually.",
-        "Established a radial-first access program, reducing bleeding complications by 40%.",
-        "Mentor fellows and early-career interventionalists through the clinic's teaching program."
-      ]
-    },
-    {
-      period: "2010 – 2014",
-      role: "Attending Interventional Cardiologist",
-      organization: "Brigham and Women's Hospital",
-      location: "Boston, MA",
-      highlights: [
-        "Performed high-volume PCI and structural interventions, including TAVR program development.",
-        "Served on the hospital's STEMI quality-improvement committee.",
-        "Co-authored institutional guidelines for antiplatelet therapy after stenting."
-      ]
-    },
-    {
-      period: "2008 – 2010",
-      role: "Staff Cardiologist",
-      organization: "Massachusetts General Hospital",
-      location: "Boston, MA",
-      highlights: [
-        "Provided inpatient and outpatient cardiovascular care across the general cardiology service.",
-        "Contributed to the coronary imaging research group studying IVUS-guided stenting."
-      ]
-    }
-  ],
-
-  /* ---------- ACHIEVEMENTS & AWARDS ---------- */
-  achievements: [
-    {
-      title: "Distinguished Clinician Award",
-      year: "2023",
-      organization: "American College of Cardiology",
-      description: "Recognized for sustained excellence in patient care and clinical leadership in interventional cardiology."
-    },
-    {
-      title: "Best Research Presentation",
-      year: "2021",
-      organization: "SCAI Annual Meeting",
-      description: "For the multicenter study on bioresorbable scaffolds in diabetic patients."
-    },
-    {
-      title: "Women in Cardiology Leadership Award",
-      year: "2019",
-      organization: "American Heart Association",
-      description: "Honored for mentoring women in interventional cardiology and advancing diversity in the field."
-    },
-    {
-      title: "Fellow of the Society for Cardiovascular Angiography & Interventions",
-      year: "2014",
-      organization: "SCAI",
-      description: "Elected fellowship in recognition of expertise and contributions to interventional cardiology."
-    },
-    {
-      title: "Master Clinician Award",
-      year: "2012",
-      organization: "Brigham and Women's Hospital",
-      description: "Peer-nominated award for exemplary bedside care and clinical teaching."
-    },
-    {
-      title: "Osler Resident Teaching Award",
-      year: "2004",
-      organization: "Johns Hopkins Hospital",
-      description: "Awarded to the resident with the most outstanding contribution to medical education."
-    }
-  ],
-
-  /* ---------- PAPERS PUBLISHED (most recent first) ---------- */
+  /* ---------- My Writings (most recent first) ---------- */
   publications: [
     {
+      year: "2026",
+      title: "Drug Induced Liver Injury with Tuberculosis Treatment",
+      journal: "Liver Fellow Network",
+      link: "https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/drug-induced-liver-injury-tuberculosis-treatment"
+    },
+    {
+      year: "2026",
+      title: "Rare, But Not Remote",
+      journal: "American Academy of Pediatrics: Section on Global Health, SOGH 2026, Volume 7, Number 1, Spring 2026",
+      link: "https://images.magnetmail.net/images/clients/AAP_MASTER/attach/SOGH/SOGH_Newsletter_Spring_2026_Vol_7_No_1.pdf"
+    },
+    {
       year: "2025",
-      title: "Three-Year Outcomes of Bioresorbable Scaffolds in Diabetic Patients: A Multicenter Registry",
-      authors: "Tabbasum S, Chen R, Alvarez J, et al.",
-      journal: "Journal of the American College of Cardiology: Cardiovascular Interventions",
-      link: "#" // Paste a DOI / PubMed URL when available
+      title: "Global Resilience: Redefining Global Disaster Management Strategies, Lessons from COVID-19 & the Call for United Action",
+      journal: "Lexicon, 52nd Edition, Around the World",
+      link: "https://www.lexiconin.com/52/global-resilience-redefining-global-disaster-management-strategies-lessons-from-covid-19-the-call-for-united-action/"
     },
     {
       year: "2024",
-      title: "Radial Versus Femoral Access in Primary PCI: An Updated Meta-Analysis",
-      authors: "Tabbasum S, Okafor T, Delgado P, et al.",
-      journal: "Catheterization and Cardiovascular Interventions",
-      link: "#"
+      title: "A Special Teacher's Day Memory (the power of a second chance) & THE PATIENT'S CORNER: BEDSIDE CHRONICLES, GOOGLING A DIAGNOSIS",
+      journal: "AIIMS ATMAN Bimonthly Magazine, Volume 3 Issue 5, Designed Theme: Thank You Teachers (Page 11)",
+      link: "https://drive.google.com/file/d/1T4_ol1xooMaS7_stPkn3NtTphjsRz08g/view?usp=sharing"
     },
     {
       year: "2023",
-      title: "Machine Learning Prediction of Stent Restenosis from Intravascular Imaging",
-      authors: "Tabbasum S, Huang L, Svensson K, et al.",
-      journal: "Circulation: Cardiovascular Imaging",
-      link: "#"
-    },
-    {
-      year: "2022",
-      title: "Sex Differences in Outcomes After Transcatheter Aortic Valve Replacement",
-      authors: "Tabbasum S, Patel R, Kim J, et al.",
-      journal: "American Heart Journal",
-      link: "#"
-    },
-    {
-      year: "2020",
-      title: "Early Discharge After Uncomplicated STEMI: A Propensity-Matched Analysis",
-      authors: "Tabbasum S, Garcia M, Nguyen H, et al.",
-      journal: "European Heart Journal — Acute Cardiovascular Care",
-      link: "#"
-    },
-    {
-      year: "2018",
-      title: "Physician Communication and Medication Adherence After PCI: A Longitudinal Study",
-      authors: "Tabbasum S, Williams D, O'Brien K, et al.",
-      journal: "Patient Education and Counseling",
-      link: "#"
+      title: "Recognising The Warning Signs Of Stroke: Act F.A.S.T.",
+      journal: "International Society for Chronic Illnesses",
+      link: "https://www.isci.info/post/recognising-the-warning-signs-of-a-stroke-act-f-a-s-t"
     }
   ],
 
-  /* ---------- CURRENT RESEARCH ---------- */
-  research: [
-    {
-      title: "AI-Guided PCI Planning",
-      description: "Multicenter trial using machine learning on IVUS/OCT imaging to plan stent sizing and reduce restenosis rates.",
-      status: "Ongoing",               // use: Ongoing / Clinical Trial / Grant-funded
-      statusClass: "ongoing"
-    },
-    {
-      title: "Bioresorbable Scaffolds in High-Risk Patients",
-      description: "Five-year follow-up study evaluating safety and efficacy of bioresorbable scaffolds in diabetic and multivessel disease.",
-      status: "Clinical Trial",
-      statusClass: "trial"
-    },
-    {
-      title: "Community Heart-Health Screening",
-      description: "Grant-funded program bringing free cardiovascular screening and education to underserved neighborhoods across Boston.",
-      status: "Grant-funded",
-      statusClass: "grant"
-    }
-  ],
+
 
   /* ---------- GOALS & VISION ---------- */
-  visionQuote: "\u201CMy goal is a future where no patient faces heart disease alone — where prevention, research, and compassionate care work together to give everyone a longer, fuller life.\u201D",
+  visionQuote: "\u201CStill learning. Still writing. Still finding my way.\u201D",
   goals: [
     {
       title: "Patient Care",
-      description: "Expand access to advanced, affordable cardiac care — including same-week appointments and second-opinion services."
+      description: "Provide attentive, family-centered care to every child and family I meet, and keep learning from each of them along the way."
     },
     {
-      title: "Research",
-      description: "Publish findings from the AI-guided PCI trial and bring personalized, imaging-based stent planning into routine practice."
+      title: "Writing",
+      description: "Grow my body of writing about medicine, childhood, and healthcare, and keep giving voice to the stories behind a diagnosis."
     },
     {
-      title: "Community",
-      description: "Train 100 community health workers in CPR and heart-health education over the next five years."
+      title: "Global Health",
+      description: "Deepen my work in global child health, from the AAP Section on Global Health to communities close to home."
     }
   ],
 
-  /* ---------- FAQ ---------- */
-  faqs: [
-    {
-      q: "How quickly can I get an appointment?",
-      a: "New patients are usually seen within 1–2 weeks. Urgent concerns are triaged daily by our clinical team, and second opinions are typically reviewed within 48 hours."
-    },
-    {
-      q: "Do you accept my insurance?",
-      a: "We work with most major insurance plans, including Medicare and Medicaid. Send us a message with your plan name and we'll verify your coverage before your visit."
-    },
-    {
-      q: "What should I bring to my first visit?",
-      a: "Bring your photo ID, insurance card, a list of current medications, and any recent test results or records. Arriving 15 minutes early lets us get you checked in smoothly."
-    },
-    {
-      q: "Is a second opinion worth it?",
-      a: "If you've been told you need heart surgery or a complex procedure, a second opinion is almost always worthwhile. We review your records, re-examine your imaging, and give you a clear, honest recommendation."
-    },
-    {
-      q: "How long is recovery after stenting?",
-      a: "Most patients go home the same day or the next morning. You can typically return to desk work within a week and full activity within 2–4 weeks — your team gives you a detailed plan."
-    },
-    {
-      q: "Is this website form confidential?",
-      a: "Yes. Your message is encrypted in transit and only our clinical team sees it. We use it to respond to you and never share your information. For anything urgent, please call the clinic instead."
-    }
-  ],
-
-  /* ---------- REFERRING PHYSICIANS ---------- */
+  /* ---------- REFERRING PHYSICIANS / COLLABORATION ---------- */
   referral: {
-    heading: "For Referring Physicians",
-    text: "We accept direct referrals for complex coronary, valvular, and structural heart cases. You'll receive a same-day acknowledgement, rapid scheduling for your patient, and a full consult report within 48 hours of the visit.",
-    cta: "Refer a Patient",
-    email: "referrals@sameenatabbasum.example"
+    heading: "For Colleagues & Collaborators",
+    text: "I welcome collaboration with clinicians, educators, and writers working in child health and global medicine, whether it's a shared project, a referral question, or a writing partnership.",
+    cta: "Get in Touch",
+    email: "sameenatabassumb@gmail.com"
   },
 
-  /* ---------- INSURANCE & CLINIC INFO ---------- */
-  insurance: ["Medicare", "Medicaid", "Blue Cross Blue Shield", "Aetna", "Cigna", "UnitedHealthcare", "Harvard Pilgrim"],
-  directionsNote: "Free validated parking in the Beacon Street garage. Entrance is on the Charles Street side, 4th floor.",
-  emergencyNote: "For a medical emergency, call 911 or go to the nearest emergency room. This site is not monitored 24/7.",
 
-  /* ---------- TESTIMONIALS ---------- */
-  testimonials: [
-    {
-      quote: "Dr. Mitchell took the time to explain every step of my procedure and made me feel like a person, not a patient. I trusted her completely.",
-      name: "Margaret T.",
-      role: "Patient, 68"
-    },
-    {
-      quote: "After my heart attack, her team coordinated everything — from rehab to medication — and I'm back to running. I can't thank her enough.",
-      name: "James R.",
-      role: "Patient, 54"
-    },
-    {
-      quote: "As a referring physician, I value her judgment and her swift communication. She is the colleague I would want for my own family.",
-      name: "Dr. Anita Rao",
-      role: "Primary Care Physician"
-    }
-  ],
 
-  /* ---------- CONTACT DETAILS ---------- */
+  /* ---------- CONTACT ---------- */
   contact: {
-    clinic: "Tabbasum Heart & Vascular Clinic",
-    address: "200 Beacon Street, Suite 400, Boston, MA 02116",
-    email: "sameena.tabbasum@example.com",
-    phone: "+1 (617) 555-0134",
-    phoneHref: "+16175550134",
-    hours: "Mon – Fri: 8:00 AM – 5:00 PM",
-    responseNote: "Questions are typically answered within 1–2 business days. For urgent concerns, please call the clinic directly."
+    email: "sameenatabassumb@gmail.com"
   },
 
   social: [
-    { label: "LinkedIn",  url: "#" },
-    { label: "Google Scholar", url: "#" },
-    { label: "ORCID",    url: "#" },
-    { label: "X (Twitter)", url: "#" }
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/sameena-tabassum-740901263/" }
   ],
 
   /* ---------- ASK-A-QUESTION FORM SETTINGS ----------
@@ -347,13 +118,6 @@ const DOCTOR_DATA = {
      Leave empty ("") to keep the form working with an on-page notice. */
   form: {
     formspreeFormId: "",
-    topicOptions: [
-      "General question",
-      "Appointment request",
-      "Second opinion",
-      "Treatment inquiry",
-      "Research collaboration",
-      "Media inquiry"
-    ]
+    topicOptions: []
   }
 };

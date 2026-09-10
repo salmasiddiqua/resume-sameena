@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Dr. Sameena Tabbasum — Doctor Portfolio
+   Dr. Sameena Tabassum — Doctor Portfolio
    Premium dark design: deep navy, gold accents, editorial serif typography,
    arched photography, varied dark/light section rhythm.
    ========================================================================== */
@@ -288,21 +288,25 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--ink); line-height:
 }
 .hero-grid {
   position: relative;
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 60px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   padding-bottom: 64px;
+}
+.hero-copy {
+  max-width: 760px;
+  text-align: center;
+  margin-inline: auto;
 }
 
 .hero-copy .eyebrow { color: var(--gold-light); }
 .hero-title {
-  font-size: clamp(42px, 6vw, 74px);
+  font-size: clamp(36px, 4.5vw, 60px);
   font-weight: 700;
   color: var(--white);
   letter-spacing: -0.015em;
   line-height: 1.05;
   margin-bottom: 10px;
+  white-space: nowrap;
 }
 .hero-subtitle {
   font-size: clamp(18px, 2.2vw, 22px);
@@ -318,11 +322,11 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--ink); line-height:
   margin: 0 0 34px;
 }
 
-.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 36px; }
+.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 36px; justify-content: center; }
 
 .hero-quick-contact {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 9px;
   font-size: 14.5px;
   color: rgba(255, 255, 255, 0.66);
@@ -823,10 +827,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--ink); line-height:
 .contact-section .section-sub { color: rgba(255, 255, 255, 0.65); }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: 34px;
-  align-items: start;
+  max-width: 720px;
 }
 
 .contact-form {
@@ -1022,7 +1023,6 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--ink); line-height:
   .about-grid { grid-template-columns: 1fr; gap: 44px; }
   .about-photo { max-width: 340px; margin-inline: auto; }
   .card-grid, .card-grid-2, .card-grid-3, .testimonial-grid { grid-template-columns: repeat(2, 1fr); }
-  .contact-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .experience-card { grid-template-columns: 1fr; gap: 12px; }
 }
@@ -1066,7 +1066,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--ink); line-height:
   .photo-card-2 { left: -4px; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; padding: 50px 0 32px; }
   .section-head-row { flex-direction: column; align-items: flex-start; }
-  .hero-title { font-size: clamp(38px, 11vw, 54px); }
+  .hero-title { font-size: clamp(24px, 6.5vw, 38px); }
 }
 
 /* Respect users who prefer reduced motion */
