@@ -11,7 +11,7 @@ const DOCTOR_DATA = {
   credentials: "MBBS",                     // Shown as eyebrow text in the hero
   title: "Doc in Training. A Writer at Heart",        // Job title / specialty
   tagline: "Caring for children with curiosity, attention and purpose, and learning from every family along the way",
-  photo: "",                                   // Set to an image path (e.g. "assets/dr-mitchell.jpg") to show a real photo; leave "" for the initials monogram
+  photo: "assets/photo.jpg",                   // Set to an image path (e.g. "assets/dr-mitchell.jpg") to show a real photo; leave "" for the initials monogram
   location: "Wisconsin, USA",
 
   /* ---------- HERO STATS (shown in the strip under the hero) ---------- */
@@ -42,7 +42,7 @@ const DOCTOR_DATA = {
     {
       year: "2026",
       title: "Drug Induced Liver Injury with Tuberculosis Treatment",
-      journal: "Liver Fellow, Network American Association for the study of Liver diseases",
+      journal: "Liver Fellow Network, American Association for the study of Liver diseases",
       link: "https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/drug-induced-liver-injury-tuberculosis-treatment"
     },
     {

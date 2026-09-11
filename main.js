@@ -55,6 +55,27 @@
   const heroEmail = $("[data-hero-email]");
   if (heroEmail) heroEmail.textContent = "\u2709\uFE0E " + D.contact.email;
 
+  // Hero photo: show the real photo if one is set, otherwise keep the
+  // initials monogram that's already in the markup.
+  const heroPhotoFrame = $("[data-hero-photo] .arch-photo");
+  const heroMonogram = $("[data-hero-monogram]");
+  if (heroMonogram) {
+    const initials = (D.firstName ? D.firstName[0] : "") +
+      (D.name ? D.name.trim().split(/\s+/).pop()[0] : "");
+    heroMonogram.textContent = initials.toUpperCase() || heroMonogram.textContent;
+  }
+  if (D.photo && heroPhotoFrame) {
+    const img = document.createElement("img");
+    img.className = "photo-img";
+    img.src = D.photo;
+    img.alt = D.name;
+    img.onerror = function () {
+      // Photo failed to load (e.g. not added yet) — fall back to monogram.
+      img.remove();
+    };
+    heroPhotoFrame.appendChild(img);
+  }
+
 
 
   // Stats strip
