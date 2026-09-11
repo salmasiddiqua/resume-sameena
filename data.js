@@ -42,7 +42,7 @@ const DOCTOR_DATA = {
     {
       year: "2026",
       title: "Drug Induced Liver Injury with Tuberculosis Treatment",
-      journal: "Liver Fellow Network, American Association for the study of Liver diseases",
+      journal: "Liver Fellow Network, American Association for the Study of Liver Diseases",
       link: "https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/drug-induced-liver-injury-tuberculosis-treatment"
     },
     {

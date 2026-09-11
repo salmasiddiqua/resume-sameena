@@ -1018,8 +1018,8 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--ink); line-height:
    Responsive
    ========================================================================== */
 @media (max-width: 960px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 54px; }
-  .hero-photo { max-width: 380px; }
+  .hero-grid { flex-direction: column; align-items: center; grid-template-columns: 1fr; gap: 40px; }
+  .hero-photo { max-width: 300px; order: -1; }
   .about-grid { grid-template-columns: 1fr; gap: 44px; }
   .about-photo { max-width: 340px; margin-inline: auto; }
   .card-grid, .card-grid-2, .card-grid-3, .testimonial-grid { grid-template-columns: repeat(2, 1fr); }
