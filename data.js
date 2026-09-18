@@ -17,7 +17,7 @@ const DOCTOR_DATA = {
   /* ---------- HERO STATS (shown in the strip under the hero) ---------- */
   stats: [
     { value: 5, suffix: "+", label: "Publications & Writings" },
-    { value: 6, suffix: "", label: "Languages Spoken" },
+    { value: 5, suffix: "", label: "Languages Spoken" },
     { value: 3, suffix: "", label: "Professional Memberships" },
     { value: 5, suffix: "+", label: "Years of Medical Training" }
   ],
@@ -30,11 +30,13 @@ const DOCTOR_DATA = {
     "I bring these two worlds together: a collection of my writing, reflections, and ideas from the journey of becoming a physician."
   ],
   credentialChips: ["MBBS"],
-  languages: ["English", "Urdu", "Telugu", "Tamil", "Hindi", "Learning spanish"],
+  languages: ["English", "Urdu", "Telugu", "Tamil", "Hindi", "Learning Spanish"],
   memberships: [
-    "American Medical Association",
+    "American Academy of Pediatrics",
+    "Andhra Pradesh  Medical Council",
     "Global Association of Indian Medical Students",
-    "American Academy of Pediatrics"
+    "Medical Students Association of India",
+    "Newborn Brain Society"
   ],
 
   /* ---------- My Writings (most recent first) ---------- */
