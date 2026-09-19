@@ -18,7 +18,7 @@ const DOCTOR_DATA = {
   stats: [
     { value: 5, suffix: "+", label: "Publications & Writings" },
     { value: 5, suffix: "", label: "Languages Spoken" },
-    { value: 3, suffix: "", label: "Professional Memberships" },
+    { value: 5, suffix: "", label: "Professional Memberships" },
     { value: 5, suffix: "+", label: "Years of Medical Training" }
   ],
 
