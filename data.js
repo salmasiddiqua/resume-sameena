@@ -12,7 +12,7 @@ const DOCTOR_DATA = {
   title: "Doc in Training. A Writer at Heart",        // Job title / specialty
   tagline: "Caring for children with curiosity, attention and purpose, and learning from every family along the way",
   photo: "assets/photo.jpg",                   // Set to an image path (e.g. "assets/dr-mitchell.jpg") to show a real photo; leave "" for the initials monogram
-  location: "Wisconsin, USA",
+  location: "",
 
   /* ---------- HERO STATS (shown in the strip under the hero) ---------- */
   stats: [
